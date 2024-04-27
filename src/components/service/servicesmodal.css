@@ -1,0 +1,97 @@
+.modal-container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.modal-box {
+    background-color: white;
+    color: black;
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(173, 168, 168);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+}
+
+.modal-second-box {
+
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.modal-second-box p {
+    color: gray;
+    text-align: center;
+}
+
+.modal-form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-top: px;
+
+}
+
+
+
+.form-group input {
+    background-color: transparent;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #555;
+    border-radius: 0px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgb(52, 46, 46);
+}
+
+.btn-box {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.form-btn {
+    padding: 6px 25px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background: rgb(0, 149, 232);
+    transition: 0.3s;
+}
+
+.form-btn:hover {
+    background-color: rgb(138, 83, 210);
+}
