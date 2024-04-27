@@ -1,0 +1,140 @@
+/* Home1 css */
+.home-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/bg-banner-home2.png);
+}
+
+.home1-main {
+    height: 100vh;
+}
+
+.home1-left {}
+
+.home1-left-img {
+
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: imagemove;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes imagemove {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 10%;
+    }
+
+
+}
+
+.home1-right {}
+
+.home1-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.home1-right-content h4 {
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 13px;
+    color: #1b1d21;
+}
+
+.home1-right-content h1 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    overflow-wrap: normal;
+}
+
+.home1-right-content p {
+    color: gray;
+}
+
+/* Home 2 */
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home2-left-content span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0095E8;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.home2-left-content h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.home2-left-content p {
+    margin: 15px 0;
+    color: gray;
+}
+
+.home2-icon {
+    color: #0095E8;
+    font-size: 30px;
+}
+
+.home2-box-heading {
+    border-bottom: 2px solid rgb(180, 180, 180);
+    margin-top: 10px;
+    position: relative;
+}
+
+.home2-box-heading h5:after {
+    content: "";
+    background-color: rgb(67, 186, 255);
+    left: 0;
+    top: 100%;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.home2-box-heading h5:hover:after {
+    width: 100%;
+
+}
+
+/* Home 3 */
+.home3-wrapper {
+    width: 100%;
+    height: 100vh;
+}

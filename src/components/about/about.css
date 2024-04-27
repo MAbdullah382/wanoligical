@@ -1,0 +1,35 @@
+.about1-wrapper {
+    background-image: url(../../assets/bg-pheader.jpg);
+    width: 100%;
+    min-height: 350px;
+    color: #43baff;
+    font-weight: 500;
+    /* background: #262051 center center no-repeat;
+    background-size: cover; */
+}
+
+.about1-container {
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+
+}
+
+.flex-mid {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-mid h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.flex-mid ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
